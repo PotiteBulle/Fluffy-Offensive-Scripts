@@ -2,7 +2,7 @@
 
 # Vérifier si l'URL cible est fournie
 if [ "$#" -ne 1 ]; then
-    echo "Usage : $0 <TARGET_URL>"
+    echo "Usage: $0 <TARGET_URL>"
     exit 1
 fi
 
